@@ -46,22 +46,21 @@ class _HomePageState extends State<HomePage> {
                     IconButton(onPressed: () {}, icon: Icon(Icons.visibility)),
                   ],
                 ),
-                SizedBox(height: 5,),
+                SizedBox(height: 5),
                 Text("\$200"),
               ],
             ),
-            Column(children: [
-              Row(
-                children: [
-                  Text("Transaction History"), Icon(Icons.arrow_right)
-                ],
-                
-              ),
-              ElevatedButton(
-                onPressed: (){},
-                child: Text("Add Money")
-              )
-            ]),
+            Column(
+              children: [
+                Row(
+                  children: [
+                    Text("Transaction History"),
+                    Icon(Icons.arrow_right),
+                  ],
+                ),
+                ElevatedButton(onPressed: () {}, child: Text("Add Money")),
+              ],
+            ),
           ],
         ),
       ),
