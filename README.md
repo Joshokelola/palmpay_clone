@@ -1,6 +1,16 @@
 # palmpay_clone
 
-A new Flutter project.
+A Flutter UI clone of the PalmPay mobile banking app built for the NACOS X INVENTORS APP DEVELOPMENT CLASS. This project demonstrates beginner-friendly Flutter concepts including widgets, layouts, navigation, and styling.
+
+## Project Overview
+
+This is a learning project that replicates the PalmPay interface with:
+- Home page with balance display
+- Quick action service buttons
+- Financial products display (CashBox, Fixed Savings)
+- Bottom navigation bar
+- Asset-based icon implementation
+- Color-coded service icons
 
 ## Getting Started
 
